@@ -16,7 +16,7 @@ Feature: Contact page
 #    for list,dynamically
   Scenario: Menu Options Driver
     Given the user logged in as a "driver"
-    Then the should see fallowing options
+    Then the should see following options
       | Fleet      |
       | Customers  |
       | Activities |
@@ -26,7 +26,7 @@ Feature: Contact page
 
   Scenario: Menu Options Sales manager
     Given the user logged in as a "sales manager"
-    Then the should see fallowing options
+    Then the should see following options
       | Dashboards         |
       | Fleet              |
       | Customers          |

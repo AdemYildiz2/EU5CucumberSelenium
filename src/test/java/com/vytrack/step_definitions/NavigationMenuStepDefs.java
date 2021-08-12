@@ -19,9 +19,9 @@ public class NavigationMenuStepDefs {
         System.out.println("title should be Vehicles");
     }
 
-    @When("the user navigates to Marketin, Campaigns")
-    public void the_user_navigates_to_Marketin_Campaigns() {
-        System.out.println("the user navigates to Marketin, Campaigns");
+    @When("the user navigates to Marketing, Campaigns")
+    public void the_user_navigates_to_Marketing_Campaigns() {
+        System.out.println("the user navigates to Marketing, Campaigns");
     }
 
     @Then("title should be Campaigns")

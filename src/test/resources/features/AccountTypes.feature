@@ -43,6 +43,7 @@ Feature: Account types
       | store manager |
 
 # firs row is the name of variable, the other rows is test data
+# then rows are assigned to variable and executed one by one for each row
 
 # Eg: 2--> for whole scenario
   Scenario Outline: Login with different types <userType>

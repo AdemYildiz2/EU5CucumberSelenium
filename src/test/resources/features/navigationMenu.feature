@@ -11,7 +11,7 @@ Feature: sales manager should be able to navigate to menu
   Scenario: Navigating Marketing--campaigns
     Given the user is on the login page
     And the user enters the sales manager information
-    When the user navigates to Marketin, Campaigns
+    When the user navigates to Marketing, Campaigns
     Then title should be Campaigns
 
   Scenario: Navigating Activities--Calendar Events

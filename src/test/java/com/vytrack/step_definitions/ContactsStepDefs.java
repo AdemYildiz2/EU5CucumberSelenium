@@ -38,8 +38,8 @@ public class ContactsStepDefs {
         new LoginPage().login(username,password);
     }
 
-    @Then("the should see fallowing options")
-    public void the_should_see_fallowing_options(List<String> menuOptions) {
+    @Then("the should see following options")
+    public void the_should_see_following_options(List<String> menuOptions) {
 
         System.out.println(menuOptions.size());
         System.out.println(menuOptions);
